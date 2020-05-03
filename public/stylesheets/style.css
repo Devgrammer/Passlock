@@ -1,0 +1,124 @@
+body {
+
+  font: Roboto, sans-serif;
+}
+
+
+a {
+  color:aliceblue;
+}
+.Container{
+    padding-top: 25px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+ 
+}
+
+.navc{
+  background-color:#3187b8 ;
+  box-shadow: 0 2px 2px -2px rgba(0,0,0,.8);
+}
+.navbar-brand{
+  color: aliceblue;
+}
+
+.mid {
+   width: 70%;
+  height: 110%;
+  position: absolute relative;
+  margin-left: 2rem;
+  margin-top: 3rem;}
+
+form {
+  width: 50%;
+  height: 90%;
+  position: absolute relative;
+  margin-left: 16rem;
+  margin-top: 1rem;
+  padding: 20px;
+  border-radius: 21px;
+  background: #3187b8;
+  box-shadow: 24px 24px 47px #2a739c, -24px -24px 47px #389bd4;
+}
+
+.neu-in {
+  border: none;
+  border-radius: 5px;
+  background: #3187b8;
+  box-shadow: inset 6px 6px 11px #2a739c, inset -6px -6px 11px #389bd4;
+}
+
+.neu-in::placeholder {
+  color: aliceblue;
+  filter: opacity(87%);
+}
+
+input[type=text]{
+  background-color: #3187b8;
+  color: white;
+}
+
+input[type=text]:focus, [type=password]:focus {
+  background-color: #3187b8;
+  box-shadow: inset 6px 6px 11px #2a739c, inset -6px -6px 11px #389bd4;
+  color: white;
+  filter: opacity(87%);
+}
+.table{ 
+  color: aliceblue;
+}
+
+hr {
+  background-color: aliceblue;
+}
+
+.neu-bt {
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #3490c5, #2c7aa6);
+  box-shadow: 9px 9px 18px #2a739c, -9px -9px 18px #389bd4;
+}
+
+#hd1 {
+  font-size: 6rem;
+}
+
+#hd2 {
+  font-size: 2rem;
+  font-weight: 500;
+  filter: opacity(80%);
+}
+
+#hd3 {
+  font-size: 1rem;
+  font-weight: 300;
+  filter: opacity(80%);
+}
+
+
+.bt-act{
+  width: 2rem;
+  height: 2rem;
+  border:none ;
+  padding:1px;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #3490c5, #2c7aa6);
+  box-shadow: 9px 9px 18px #2a739c, -9px -9px 18px #389bd4;
+}
+
+#signupalert{
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  
+}
+
+li {
+  margin: 0.3rem;
+  float: left;
+  color: aliceblue;
+}
